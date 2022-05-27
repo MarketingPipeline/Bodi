@@ -461,6 +461,14 @@ function addItemsToPlaylist (src, title, genre, albumCoverArt) {
 
 
 
+ if(VideoSources.length > 0){
+          
+i = i + 1; // increase i by one
+    i = i % VideoSources.length; // if we've gone too high, start from `0` again
+ if(i === 0){
+   alert("done");
+ } 
+ 
 
 
 
