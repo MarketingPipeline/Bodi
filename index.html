@@ -3,9 +3,6 @@
     <script src="https://kit.fontawesome.com/d5fba335cd.js" crossorigin="anonymous"></script>
   
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" crossorigin="anonymous"></script>
-    
-    <script src="assets/core.js" crossorigin="anonymous"></script>
-  
     <LINK href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css"> 
   
  
@@ -1347,7 +1344,7 @@ function togglePlay() {
    
    var videoPlayer = document.getElementById('video');
 i = i + 1; // increase i by one
-    i = i % VideoSources.length; // if we've gone too high, start from `0` again
+   // if we've gone too high, start from `0` again
 ChangeVideoSource(VideoSources[i],VideoTitles[0],VideoGenres[0], AlbumCovers[0]);
      
       UpdateVideoCardInfo(AlbumCovers[0], VideoTitles[0], VideoGenres[0]);
