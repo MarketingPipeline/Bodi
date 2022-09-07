@@ -1373,6 +1373,49 @@ function MovieInfo() {
  
 
   
+// Subtitles Settings Menu Functions
+
+function ShowSubtitlesSettingsMenu(){
+    var SubtitlesSettingsMenu = document.getElementById("SubtitlesSettingsMenu");
+
+      SubtitlesSettingsMenu.style.opacity = "1";
+     SubtitlesSettingsMenu.style.zIndex = "1000";
+ 
+}
+
+
+
+
+function HideSubtitlesSettingsMenu(){
+      var SubtitlesSettingsMenu = document.getElementById("SubtitlesSettingsMenu");
+  
+   
+      SubtitlesSettingsMenu.style.opacity = "0";
+     SubtitlesSettingsMenu.style.zIndex = "0";
+ 
+}
+
+
+
+
+// Subtitles 
+
+// Detect Toggle Check On / Off  
+
+
+
+function ToggleSubtitles() {
+  var Toggle = document.getElementById("SubtitlesToggleSwitch");
+  if (Toggle.checked) {
+     for (var i = 0; i < video.textTracks.length; i++) {
+   video.textTracks[i].mode = 'showing';
+}
+  } else {
+   		for (var i = 0; i < video.textTracks.length; i++) {
+   video.textTracks[i].mode = 'hidden';
+}
+  }
+}
 
   
 function VideoSettings_Menu() {
@@ -1511,7 +1554,7 @@ videoPlayer.onended = function(){
     <div class="movie-bookmark-button"><i class="fa fa-bookmark fa-2x"></i></div>
 
       
-      <div class="movie-subtitle-button"><i class="far fa-comment-alt fa-2x"></i></div>
+      <div class="movie-subtitle-button"><i onclick="ShowSubtitlesSettingsMenu()" class="far fa-comment-alt fa-2x"></i></div>
    
         <div class="movie-settings-button"><i class="fa fa-gear fa-2x"></i></a></div>
   <div class="progress" id="progresstime">
