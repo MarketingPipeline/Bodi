@@ -5,11 +5,15 @@
 
   <img width="120" src="https://user-images.githubusercontent.com/86180097/182456561-ee7e1084-38a1-4aba-a70f-511cdae549c3.png" />
   <br/>
-<b><a href="https://demo.dashy.to">Live Demo</a></b> |  <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/MarketingPipeline/Simply-Static/">GitHub</a></b>
+<b><a href="https://marketingpipeline.github.io/Bodi/demo">Live Demo</a></b> |  <b><a href="https://marketingpipeline.github.io/Bodi/docs/">Documentation</a></b> | <b><a href="https://github.com/MarketingPipeline/Bodi/">GitHub</a></b>
   <br/><br/>
 </p>
 
 
+
+<!----
+Browser-based, open data-indexing. (A multi-media management center) 
+--->
 
 
 
@@ -18,7 +22,7 @@
   
 ## About Bodi
 
-Bodi is a project with goals to become a modern multi-media management tool, heavily inspired by "Kodi". This project is currently built with HTML, JavaScript, CSS. Tho hopes to expand it's development community to (Node.JS, PHP & Python) developers. Providing both a static version for simple usage and a server based version with more advanced usage. 
+Bodi is a project with goals to become a modern multi-media management tool, heavily inspired by "Kodi". This project is currently built with HTML, JavaScript, CSS. Tho hopes to expand it's development community to (Node.JS, PHP & Python) developers. And hopes to provide one day, both a static version for simple usage and a server based version with more advanced usage. 
 
 <!--
 Bodi is a multi-media management tool, heavily inspired by "Kodi". Built in HTML, JavaScript, CSS -->
@@ -29,7 +33,7 @@ Bodi is a multi-media management tool, heavily inspired by "Kodi". Built in HTML
 > Note: this is a WIP and just a proof of concept right now - there is lots of responsive issues & MORE that needs DONE or FIXED. 
 Bodi uses the [Estuary](https://github.com/MarketingPipeline/Estuary) - HTML / CSS / Framework <code>(ALSO WORK IN PROGRESS)</code>. 
 
-You can view a live demo of Bodi in use [here.](https://marketingpipeline.github.io/Markdown-Tag)
+You can view a live demo of Bodi in use [here.](https://marketingpipeline.github.io/Bodi/demo)
 
 
 
@@ -38,7 +42,7 @@ You can view a live demo of Bodi in use [here.](https://marketingpipeline.github
 Want to improve this? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
 
 <!---
-Looking for a task to work on? Check the tasks that need improved in the [to-do](https://github.com/MarketingPipeline/Markdown-Tag/blob/main/to-do.md) list.
+Looking for a task to work on? Check the tasks that need improved in the [to-do](https://github.com/MarketingPipeline/Bodi/blob/main/.github/to-do.md) list.
 --->
 
 See also the list of
