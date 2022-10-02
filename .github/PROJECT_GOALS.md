@@ -19,3 +19,4 @@ The idea is to do something like this - [benflix: Beautify your movie collection
 
 > Notes: not saying PHP is the best route for this project, but if the server version is developed in PHP, a plugin could possibily be developed to auto-download / install Node.php (Node.js) & etc to server to be able to expland the plugin options / development options. 
 
+If you think the PHP route is the best route of doing this after reading / seeing the above resources. You can find a basic function for reading all files in a directory in the <code>src</code> folder. 
