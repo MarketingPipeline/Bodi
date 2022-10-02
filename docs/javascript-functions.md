@@ -3,7 +3,7 @@
 You can find links to all of the JavaScript functions for <b>Bodi</b> including - usage & examples below
 
 
-[Video Player Functions](docs/js/video-player-functions.md)
+[Video Player Functions](docs/js-functions/video-player.md)
    - Change Video Source
    - Update Video Card Info
    - Pause Video Player
