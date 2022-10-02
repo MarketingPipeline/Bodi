@@ -1,5 +1,8 @@
 # Developing
 
+> Note: The main theme for Bodi relys on the <b>Estuary</b> design framework (A HTML, CSS, and JavaScript framework that looks like the default Kodi theme) which is also a work in progress, and needs major improvements. If you are interested in how you can contribute to Estuary, see the repo [here](https://github.com/MarketingPipeline/Estuary) 
+
+
 Hello! And thank you for your time & interest for looking through the tasks that this project currently needs help with!
 
 There a several tasks that currently need help with. Including tasks for PHP, JavaScript & CSS / HTML developers. 
