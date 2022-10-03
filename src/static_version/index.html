@@ -1016,7 +1016,7 @@ const blink = function () {
   }
 };
 //Event listener
-container.addEventListener('click', function (e) {
+container.onclick = (e) => {
   if (e.target.classList.contains('key')) {
     if (e.target.classList.contains('spaceBar')) {
       textarea.textContent += ' ';
@@ -1040,7 +1040,7 @@ container.addEventListener('click', function (e) {
   } else {
     return;
   }
-});
+};
   
   
 
@@ -1436,28 +1436,28 @@ function VideoSettings_Menu_Click() {
    Video_Settings_Menu.style.display = "none";
 }  
 
-SubtitleBtn.addEventListener('click',  ShowSubtitlesSettingsMenu);
+SubtitleBtn.onclick = (event) => {ShowSubtitlesSettingsMenu};
 
   
   
-pauseBtn.addEventListener('click', togglePause);
+pauseBtn.onclick = (event) => {togglePause};
   
   
 
-playBtn.addEventListener('click', togglePlay);
-NextBtn.addEventListener('click', NextItem);  
+playBtn.onclick = (event) => {togglePlay};
+NextBtn.onclick = (event) => {NextItem};  
 
-MovieInfoBtn.addEventListener('click', MovieInfo);
+MovieInfoBtn.onclick = (event) => { MovieInfo};
 
 
-Video_Settings_Btn.addEventListener('click', VideoSettings_Menu);
-Video_Settings_Menu_Items.addEventListener('click', VideoSettings_Menu_Click);
+Video_Settings_Btn.onclick = (event) => {VideoSettings_Menu};
+Video_Settings_Menu_Items.onclick = (event) => { VideoSettings_Menu_Click};
   
   
   
 video.addEventListener('timeupdate', updateProgress);
   
-progressSlider.addEventListener('click', setProgress);  
+progressSlider.onclick = (event) => { setProgress};  
 </script>
 <script type ="text/javascript">
      
