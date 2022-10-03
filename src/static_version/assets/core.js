@@ -30,8 +30,10 @@
     }
 }
 
-// Right Click Menu
 
+
+
+// Right Click Menu
 
 
 const menu = document.getElementById('context-menu')
@@ -43,14 +45,11 @@ outClick.addEventListener('click', () => {
   outClick.style.display = "none"
 })
 
+let Swiper_Cards = document.querySelectorAll(".item");
 
-  const clickable = document.getElementById('swipe_card_item')
-
-
-
-
-clickable.addEventListener('contextmenu', (e) => {
-
+Swiper_Cards.forEach(function(elem) {
+    elem.addEventListener('contextmenu', function(e) {
+       
    e.preventDefault()
   var Style = e.clientY - 150
   menu.style.top = `${Style}px`
@@ -58,8 +57,11 @@ clickable.addEventListener('contextmenu', (e) => {
   menu.classList.add('show')
 
   outClick.style.display = "block"
- 
+    });
 });
+
+
+
 
 
 // Progress Bar Animation 
@@ -81,6 +83,8 @@ var ProgressBar_Percentage = document.querySelector('.progress_slider_animation'
     } );
 
   }
+
+
 
 // Swiper for Libray Items 
 const swiper = new Swiper(".swiper-container", {
@@ -107,6 +111,8 @@ const swiper = new Swiper(".swiper-container", {
     }
   }
 });
+
+
 
 
 
@@ -171,6 +177,8 @@ function HideSubtitlesSettingsMenu(){
 
 
 //// End Of Subtitle 
+
+
 
 
 
@@ -468,7 +476,7 @@ i = i + 1; // increase i by one
  if(i === 0){
    alert("done");
  } 
- 
+ }
 
 
 
