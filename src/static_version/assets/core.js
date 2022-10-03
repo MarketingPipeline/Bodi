@@ -63,26 +63,22 @@ Swiper_Cards.forEach(function(elem) {
 
 
 
-
 // Progress Bar Animation 
   function ProgressBarAnimation() {
 
-var ProgressBar = document.querySelector('.Dialog-Menu-1-slider span[role="position"]'); 
-
- 
-var ProgressBar_Percentage = document.querySelector('.progress_slider_animation');     
-    ProgressBar.classList.add("ProgressBar_Animation");
-
-    ProgressBar.addEventListener( "animationend",  function() {
-
-      setTimeout(function(){
-    ProgressBar.classList.remove("ProgressBar_Animation");    
-}, 2000);
-     
-
-    } );
-
+var ProgressBar_Percentage  = document.querySelector('.Dialog-Menu-1-slider span[role="position"]'); 
+    
+ var width = 0 
+     var a = setInterval(function() {
+    width =  width + 1;
+ ProgressBar_Percentage.style.width = width + '%';
+    if (width == 100) {
+      clearInterval(a);
+    }
+  }, 1000);
+    
   }
+
 
 
 
