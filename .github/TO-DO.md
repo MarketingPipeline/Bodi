@@ -45,9 +45,18 @@
 - [ ] Fix photo gallery from constantly fetching
 - [ ] Fix video player bugs
   - [ ] Playlist not working properly (player should quit when no videos in playlist) 
+  - [ ] Fix Volume Amplification
+- [ ] Video Player Feature Improvements    
+   - [ ] Add option to disable subtitles button
+   - [ ] Option to add subtitles button
+   - [ ] Convert video duration to hours format after 60 minutes of video / audio length (60 mins to > 1:00)
+   - [ ] Add support to stream YouTube Videos, WebTorrent and more.  
 - [ ] Notification timing - refer to Estuary repo [here](https://github.com/MarketingPipeline/Estuary) as the fix should be addressed THERE.
-- [ ] Make some static JS examples of a some kinda 'Addon' that could be used (client side movie scraper etc..), (photo gallery etc). GO WILD!    
-   
+- [ ] Make a static plugin loader etc.. (maybe load plugins / static addons etc via JSON data etc..?) 
+   - [ ] Make some static JS examples of a some kinda 'Addon' that could be used (client side movie scraper etc.. - photo gallery, games, web browser etc). GO WILD! 
+- [ ] Create a script loader that loads scripts ( games / addons etc.) when needed and UNLOADs them when they are not.     
+
+
    
 <br><br> 
    
