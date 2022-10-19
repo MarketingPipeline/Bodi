@@ -13,12 +13,11 @@
       
 ## Tasks 
    
-   
+- [ ] Have discussions with how this should be done.    
 - [ ] Make a PHP hosted version of this 
-  - [ ] Populate librarys / sections with movie details etc.. 
-  - [ ] On click of movie title etc - populate video player stream via a request to DB. 
-- [ ] Make an option to download / install Add-on's / Plugins for this!
-  - [ ] Allow usage of Javascript Plugins to be installed somehow! 
+   - [ ] Auto scrape info for movies, songs & etc in folder and store data with file names, file / media info, file path & more to be accessed via API (info will be populated via JavaScript etc). 
+  - [ ] Option to post & store fetched data about movie / song etc via JavaScript to PHP api etc. 
+- [ ] Make an endpoint to download / install Add-on's / Plugins to server!
   
    
    
