@@ -3,7 +3,7 @@
 You can find links to all of the JavaScript functions for <b>Bodi</b> including - usage & examples below
 
 
-[Video Player Functions](docs/js-functions/video-player.md)
+[Video Player Functions](js-functions/video-player.md)
    - Change Video Source
    - Update Video Card Info
    - Pause Video Player
@@ -14,10 +14,14 @@ You can find links to all of the JavaScript functions for <b>Bodi</b> including 
 <br>
 
 
-Get Final Text From Keyboard
 
-Show Notification
+
+[Show Notification](js-functions/show_notifcation.md)
+
+<!----
+Get Final Text From Keyboard
 
 Get Keyboard Input 
 
 Populate Library Cards 
+----> 
