@@ -3,7 +3,7 @@
 
 <p align="center">
 
-  <img width="120" src="https://user-images.githubusercontent.com/86180097/182456561-ee7e1084-38a1-4aba-a70f-511cdae549c3.png" />
+  <img width="120" src="https://i.imgur.com/vNLx6ov.png" />
   <br/>
 <b><a href="https://marketingpipeline.github.io/Bodi/demo">Live Demo</a></b> |  <b><a href="https://marketingpipeline.github.io/Bodi/docs/">Documentation</a></b> | <b><a href="https://github.com/MarketingPipeline/Bodi/">GitHub</a></b>
   <br/><br/>
