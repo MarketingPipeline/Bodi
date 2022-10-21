@@ -482,3 +482,30 @@ i = i + 1; // increase i by one
 
 
 
+//This variable sets how long we wait between images
+var minutes = 0.1;
+
+//This variable is the location of our JSON gallery
+var galleryUrl = "https://cdn.rawgit.com/dconnolly/chromecast-backgrounds/master/backgrounds.json";
+var imageList;
+
+function cycleImage() {
+  var imageNumber = Math.floor((Math.random() * imageList.length) + 1);
+  showImage(imageList[imageNumber]['url']);
+  setTimeout (cycleImage,minutes*60*1000);
+}
+
+function showImage(imageUrl) {
+  document.getElementById("PhotoGallery").src=imageUrl;
+}
+
+
+async function fetchDataAsync(url) {
+    const response = await fetch(url);
+    imageList = (await response.json());
+      cycleImage();
+}
+
+fetchDataAsync(galleryUrl);
+
+
